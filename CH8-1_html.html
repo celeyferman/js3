@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CH8-1_css.css">
+    <title>Chapter 8 - Exercise 1</title>
+</head>
+<body>
+    <section id="formNote">
+        <label for="titleNote">Title</label>
+        <input type="text" name="titleNote" id="titleNote" value="" placeholder="Put title here (Optional)"><br />
+        <textarea name="entryNote" id="entryNote" placeholder="Write your note here..." requied></textarea><br />
+        <input type="submit" id="submitEntry" onclick="sendForm()">
+    </section>
+    <section id="displayNote">
+        <table>
+            <tbody>
+
+            </tbody>
+        </table>
+    </section>
+
+    <template id="displayNoteTemplate">
+        <table>
+            <tbody>
+
+            </tbody>
+        </table>
+    </template>
+
+    <template id="displayNotesTable">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button>Edit</button></td>
+            <td><button>Delete</button></td>
+        </tr>
+    </template>
+
+    <script type="text/javascript" src="./CH8-1.js"></script>
+</body>
+</html>
